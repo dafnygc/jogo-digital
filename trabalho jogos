@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Website do jogo Matio bros </title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Mario Bros
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                     
+
+                  <li class="nav__item"><a href="#home" class="nav__link active-link">Sobre</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Consoles</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Especificações</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                 <section class="about section " id="about">
+                <h2 class="section-title">Mario bros</h2>    
+             "Super Mario Bros" é um dos jogos mais icônicos da história dos videogames. Lançado pela Nintendo em 1985, este jogo de plataforma estabeleceu os padrões para gerações futuras de jogos. No jogo, os jogadores assumem o papel de Mario, um encanador italiano, que embarca em uma jornada para resgatar a Princesa Peach do vilão Bowser. Com seus gráficos coloridos, trilha sonora cativante e jogabilidade envolvente, "Super Mario Bros" conquistou milhões de fãs ao redor do mundo e continua a ser uma parte essencial da cultura pop até os dias de hoje.</p>    
+                                       
+ <img><a href="https://imgbb.com/"><img src="https://i.ibb.co/Jk2npZ7/images-1.jpg" alt="images-1" border="0"></a>
+                    </div>
+             
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Console</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img><a href="https://imgbb.com/"><img src="https://i.ibb.co/7vmMKd5/images-3.jpg" alt="images-3" border="0"></a>
+                    </div>
+                   
+                    <div>
+               
+            Mario Bros, como personagem, apareceu em uma variedade de consoles ao longo dos anos, mas sua franquia principal de jogos foi associada principalmente a consoles da Nintendo. Aqui estão alguns dos consoles principais onde os jogos da série Mario Bros foram lançados:
+  <div>
+1.Nintendo Entertainment System (NES) O primeiro jogo da série principal, "Super Mario Bros", foi lançado para este console em 1985, estabelecendo o encanador Mario como um ícone dos videogames.    
+                      <div>
+2. Super Nintendo Entertainment System (SNES) A série Mario continuou no SNES com jogos como "Super Mario World" e "Super Mario Kart"
+  <div>
+3.Nintendo 64 (N64) O salto para gráficos 3D ocorreu com o lançamento de "Super Mario 64", um dos jogos mais influentes de todos os tempos.
+             <div>
+4.Nintendo GameCube Embora não tenha um título principal de Mario em 3D, o GameCube recebeu jogos notáveis da série, como "Super Mario Sunshine".
+            <div>
+5. Nintendo Wii Introduziu uma nova maneira de jogar com o controle de movimento e trouxe jogos como "Super Mario Galaxy" e "New Super Mario Bros Wii".    
+  <div>
+Nintendo Wii U Apesar das vendas mornas do console, "New Super Mario Bros U" e "Super Mario 3D World" foram lançados para ele.                       <div>  
+6.Nintendo Switch Atualmente, o Switch tem uma variedade de títulos Mario, incluindo "Super Mario Odyssey", "Mario Kart 8 Deluxe" e "Super Mario Maker 2".
+                    <div>    
+Esses são apenas alguns dos consoles principais onde os jogos da série Mario Bros foram lançados. .</p>            
+                    </div>
+            </section>
+                <h2 class="section-title">Especificações</h2>  
+             
+                    <div>
+ Plataforma: Nintendo Entertainment System (NES)
+                           <div>
+Data de Lançamento: 13 de setembro de 1985 (Japão)
+                           <div>
+Desenvolvedor: Nintendo EAD
+                                  <div>
+Gênero: Plataforma
+                           <div>
+Jogadores: 1 ou 2 jogadores alternados (modo cooperativo não simultâneo)
+                             <div>
+Resolução de Tela: 256x240 pixels
+                               <div>
+Gráficos: 2D, sprites
+                           <div>
+Áudio: Música e efeitos sonoros em formato digitalizado (NES possui som monoaural)
+                                 <div>
+Armazenamento: Cartucho ROM de 40KB
+                           <div>
+Controles: Gamepad padrão do NES (direcional digital, botões A e B)
+                                 <div>
+Modos de Jogo: Campanha de um jogador (modo principal), modo de dois jogadores alternados
+                      <div>
+Dificuldade: Aumenta progressivamente ao longo do jogo, com mundos e níveis mais desafiadores conforme avança.
+     <div>
+ 
+    <iframe width="560" height="315" src=https://www.youtube.com/watch?v=SdLMVWD3Wag"  frameborder="0" allowfullscreen></iframe>
+<div>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+
+/*===== FONTES DO GOOGLE =====*/
+@importar url(" https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap ");
+/*===== VARIÁVEIS CSS =====*/
+:raiz {
+--altura do cabeçalho: 3rem;
+--font-semi: 600;
+/*===== Cores =====*/
+/*Roxo 260 - Vermelho 355 - Azul 224 - Rosa 340*/
+/* modo de cor HSL */
+--matiz-cor: 224;
+--primeira cor: hsl(var(--hue-color), 89%, 60%);
+--segunda cor: hsl(var(--hue-color), 56%, 12%);
+/*===== Fonte e tipografia =====*/
+--body-font: "Poppins", sem serifa;
+--tamanho da fonte grande: 2rem;
+--tamanho da fonte h2: 1,25rem;
+--tamanho da fonte normal: 0,938rem;
+--tamanho da fonte menor: 0,75rem;
+/*===== Margenes =====*/
+--mb-2: 1rem;
+--mb-4: 2rem;
+--mb-5: 2,5rem;
+--mb-6: 3rem;
+/*===== índice z =====*/
+--z-voltar: -10;
+--z-fixo: 100;
+}
+@media screen e (largura mínima: 968px) {
+:raiz {
+--tamanho da fonte grande: 3,5rem;
+--h2-tamanho da fonte: 2rem;
+--tamanho da fonte normal: 1rem;
+--tamanho da fonte menor: 0,875rem;
+}
+}
+
+
+/*===== BASE =====*/
+*, ::antes Depois {
+dimensionamento de caixa: caixa de borda;
+}
+
+HTML {
+comportamento de rolagem: suave;
+}
+
+corpo {
+margem: var(--altura do cabeçalho) 0 0 0;
+família de fontes: var(--body-font);
+tamanho da fonte: var(--tamanho da fonte normal);
+cor: var(--segunda cor);
+}
+
+h1, h2, p {
+margem: 0;
+}
+
+você {
+margem: 0;
+preenchimento: 0;
+estilo de lista: nenhum;
+}
+
+a {
+decoração de texto: nenhuma;
+}
+
+imagem {
+largura máxima: 100%;
+altura: automático;
+exibição: bloco;
+}
+
+/*===== CLASSE CSS ===== */
+.Título da seção {
+posição: relativa;
+tamanho da fonte: var(--h2-tamanho da fonte);
+cor: var(--primeira cor);
+margem superior: var(--mb-2);
+margem inferior: var(--mb-4);
+alinhamento de texto: centro;
+}
+.section-title::depois {
+posição: absoluta;
+contente: "";
+largura: 64px;
+altura: 0,18rem;
+esquerda: 0;
+direita: 0;
+margem: automático;
+superior: 2rem;
+cor de fundo: var(--primeira cor);
+}
+
+.seção {
+acolchoamento superior: 3rem;
+fundo de preenchimento: 2rem;
+}
+
+/*===== LAYOUT =====*/
+.bd-grade {
+largura máxima: 1024px;
+exibição: grade;
+margem esquerda: var(--mb-2);
+margem direita: var(--mb-2);
+}
+
+.l-cabeçalho {
+largura: 100%;
+posição: fixa;
+superior: 0;
+esquerda: 0;
+índice z: var(--z-fixo);
+cor de fundo: #fff;
+sombra da caixa: 0 1px 4px rgba (146, 161, 176, 0,15);
+}
+
+/*===== NAV =====*/
+.nav{
+altura: var(--altura do cabeçalho);
+exibição: flexível;
+justificar-conteúdo: espaço entre;
+alinhar itens: centro;
+peso da fonte: var(--font-semi);
+}
+@media screen e (largura máxima: 767px) {
+.nav__menu{
+posição: fixa;
+topo: var(--altura do cabeçalho);
+certo: -100%;
+largura: 80%;
+altura: 100%;
+preenchimento: 2rem;
+cor de fundo: var(--segunda cor);
+transição: 0,5s;
+}
+}
+.nav__item{
+margem inferior: var(--mb-4);
+}
+.nav__link{
+posição: relativa;
+cor: #fff;
+}
+.nav__link:hover {
+posição: relativa;
+}
+.nav__link:hover::depois {
+posição: absoluta;
+contente: "";
+largura: 100%;
+altura: 0,18rem;
+esquerda: 0;
+superior: 2rem;
+cor de fundo: var(--primeira cor);
+}
+.nav__logo {
+cor: var(--segunda cor);
+}
+.nav__toggle {
+cor: var(--segunda cor);
+tamanho da fonte: 1,5rem;
+cursor: ponteiro;
+}
+
+/*Menu ativo*/
+.active-link::depois {
+posição: absoluta;
+contente: "";
+largura: 100%;
+altura: 0,18rem;
+esquerda: 0;
+superior: 2rem;
+cor de fundo: var(--primeira cor);
+}
+
+/*=== Mostrar menu ===*/
+.mostrar {
+direita: 0;
+}
+
+/*===== INÍCIO =====*/
+.lar {
+posição: relativa;
+intervalo entre linhas: 5rem;
+preenchimento: 4rem 0 5rem;
+}
+.home__dados{
+alinhar-se: centro;
+}
+.home__title{
+tamanho da fonte: var(--tamanho da fonte grande);
+margem inferior: var(--mb-5);
+}
+.home__title-color {
+cor: var(--primeira cor);
+}
+.home__social{
+exibição: flexível;
+direção flexível: coluna;
+}
+.home__social-icon {
+largura: conteúdo máximo;
+margem inferior: var(--mb-2);
+tamanho da fonte: 1,5rem;
+cor: var(--segunda cor);
+}
+.home__social-icon:hover {
+cor: var(--primeira cor);
+}
+.home__img {
+posição: absoluta;
+direita: 0;
+inferior: 0;
+largura: 260px;
+}
+.home__blob{
+preencher: var(--primeira cor);
+}
+.home__blob-img {
+largura: 360px;
+}
+
+/*BOTÕES*/
+.botão {
+display: bloco embutido;
+cor de fundo: var(--primeira cor);
+cor: #fff;
+preenchimento: 0,75rem 2,5rem;
+peso da fonte: var(--font-semi);
+raio da borda: 0,5rem;
+transição: 0,3s;
+}
+.botão: passar o mouse {
+sombra da caixa: 0px 10px 36px rgba (0, 0, 0, 0,15);
+}
+
+/* ===== SOBRE =====*/
+.about__container {
+intervalo entre linhas: 2rem;
+alinhamento de texto: centro;
+}
+.about__subtitle {
+margem inferior: var(--mb-2);
+}
+.about__img {
+justificar-se: centro;
+}
+.about__img img {
+largura: 200px;
+raio da borda: 0,5rem;
+}
+
+/* ===== HABILIDADES =====*/
+.skills__container {
+intervalo entre linhas: 2rem;
+alinhamento de texto: centro;
+}
+.skills__subtitle {
+margem inferior: var(--mb-2);
+}
+.habilidades__texto {
+margem inferior: var(--mb-4);
+}
+.habilidades__dados {
+exibição: flexível;
+justificar-conteúdo: espaço entre;
+alinhar itens: centro;
+posição: relativa;
+peso da fonte: var(--font-semi);
+preenchimento: 0,5rem 1rem;
+margem inferior: var(--mb-4);
+raio da borda: 0,5rem;
+sombra da caixa: 0px 4px 25px rgba (14, 36, 49, 0,15);
+}
+.skills__icon {
+tamanho da fonte: 2rem;
+margem direita: var(--mb-2);
+cor: var(--primeira cor);
+}
+.habilidades__nomes {
+exibição: flexível;
+alinhar itens: centro;
+}
+.skills__bar {
+posição: absoluta;
+esquerda: 0;
+inferior: 0;
+cor de fundo: var(--primeira cor);
+altura: 0,25rem;
+raio da borda: 0,5rem;
+índice z: var(--z-back);
+}
+.habilidades__html {
+largura: 95%;
+}
+.skills__css {
+largura: 85%;
+}
+.skills__js {
+largura: 65%;
+}
+.habilidades__ux {
+largura: 85%;
+}
+.skills__img {
+raio da borda: 0,5rem;
+}
+
+/* ===== TRABALHO =====*/
+.work__container {
+intervalo entre linhas: 2rem;
+}
+.trabalho__img {
+sombra da caixa: 0px 4px 25px rgba (14, 36, 49, 0,15);
+raio da borda: 0,5rem;
+estouro: oculto;
+}
+.work__img img {
+transição: 1s;
+}
+.work__img img:hover {
+transformar: escala(1,1);
+}
+
+/* ===== CONTATO =====*/
+.contato__input {
+largura: 100%;
+tamanho da fonte: var(--tamanho da fonte normal);
+peso da fonte: var(--font-semi);
+preenchimento: 1rem;
+raio da borda: 0,5rem;
+borda: var sólida de 1,5px (--segunda cor);
+esboço: nenhum;
+margem inferior: var(--mb-4);
+}
+.contato__button {
+exibição: bloco;
+fronteira: nenhuma;
+esboço: nenhum;
+tamanho da fonte: var(--tamanho da fonte normal);
+cursor: ponteiro;
+margem esquerda: automático;
+}
+
+/* ===== RODAPÉ =====*/
+.footer {
+cor de fundo: var(--segunda cor);
+cor: #fff;
+alinhamento de texto: centro;
+peso da fonte: var(--font-semi);
+preenchimento: 2rem 0;
+}
+.footer__title {
+tamanho da fonte: 2rem;
+margem inferior: var(--mb-4);
+}
+.footer__social {
+margem inferior: var(--mb-4);
+}
+.footer__icon {
+tamanho da fonte: 1,5rem;
+cor: #fff;
+margem: 0 var(--mb-2);
+}
+.footer__copy {
+tamanho da fonte: var(--tamanho da fonte menor);
+}
+
+/* ===== CONSULTAS DE MÍDIA=====*/
+@media screen e (largura máxima: 320px) {
+.lar {
+intervalo entre linhas: 2rem;
+}
+.home__img {
+largura: 200px;
+}
+}
+@media screen e (largura mínima: 576px) {
+.lar {
+preenchimento: 4rem 0 2rem;
+}
+.home__social{
+preenchimento superior: 0;
+fundo de preenchimento: 2,5rem;
+direção flexível: linha;
+alinhar-se: extremidade flexível;
+}
+.home__social-icon {
+margem inferior: 0;
+margem direita: var(--mb-4);
+}
+.home__img {
+largura: 300px;
+inferior: 25%;
+}
+.about__container {
+colunas de modelo de grade: repetir (2, 1fr);
+alinhar itens: centro;
+alinhamento de texto: inicial;
+}
+.skills__container {
+colunas de modelo de grade: 0,7fr;
+justificar-conteúdo: centro;
+lacuna entre colunas: 1rem;
+}
+.work__container {
+colunas de modelo de grade: repetir (2, 1fr);
+lacuna entre colunas: 2rem;
+acolchoamento superior: 2rem;
+}
+.Formulário de Contato {
+largura: 360px;
+acolchoamento superior: 2rem;
+}
+.contact__container {
+justificar itens: centro;
+}
+}
+@media screen e (largura mínima: 768px) {
+corpo {
+margem: 0;
+}
+.seção {
+acolchoamento superior: 4rem;
+fundo de preenchimento: 3rem;
+}
+.Título da seção {
+margem inferior: var(--mb-6);
+}
+.section-title::depois {
+largura: 80px;
+superior: 3rem;
+}
+.nav{
+altura: calc(var(--altura do cabeçalho) + 1,5rem);
+}
+.nav__list{
+exibição: flexível;
+preenchimento superior: 0;
+}
+.nav__item{
+margem esquerda: var(--mb-6);
+margem inferior: 0;
+}
+.nav__toggle {
+Mostrar nenhum;
+}
+.nav__link{
+cor: var(--segunda cor);
+}
+.lar {
+preenchimento: 8rem 0 2rem;
+}
+.home__img {
+largura: 400px;
+inferior: 10%;
+}
+.about__container {
+acolchoamento superior: 2rem;
+}
+.about__img img {
+largura: 300px;
+}
+.skills__container {
+colunas de modelo de grade: repetir (2, 1fr);
+lacuna entre colunas: 2rem;
+alinhar itens: centro;
+alinhamento de texto: inicial;
+}
+.work__container {
+colunas de modelo de grade: repetir (3, 1fr);
+lacuna entre colunas: 2rem;
+}
+}
+@media screen e (largura mínima: 992px) {
+.bd-grade {
+margem esquerda: automático;
+margem direita: automático;
+}
+.lar {
+preenchimento: 10rem 0 2rem;
+}
+.home__img {
+largura: 450px;
+}
+}
+
+
+/*===== MOSTRAR MENU =====*/
+const showMenu = (toggleId, navId) =>{
+const alternar = document.getElementById (toggleId),
+nav=document.getElementById(navId)
+
+if(alternar && navegação){
+toggle.addEventListener('clique', ()=>{
+nav.classList.toggle('mostrar')
+})
+}
+}
+showMenu('nav-toggle','nav-menu')
+
+/*==================== REMOVER MENU CELULAR ====================*/
+const navLink = document.querySelectorAll('.nav__link')
+
+função linkAção(){
+const navMenu = document.getElementById('nav-menu')
+// Quando clicamos em cada nav__link, removemos a classe show-menu
+navMenu.classList.remove('mostrar')
+}
+navLink.forEach(n => n.addEventListener('clique', linkAction))
+
+/*==================== ROLAR SEÇÕES LINK ATIVO ====================*/
+seções const = document.querySelectorAll('seção[id]')
+
+const scrollActive = () =>{
+const scrollDown = janela.scrollY
+
+seções.forEach(atual =>{
+const seçãoHeight = current.offsetHeight,
+seçãoTop = atual.offsetTop - 58,
+seçãoId = atual.getAttribute('id'),
+seçõesClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+
+if(scrollDown > seçãoTop && scrollDown <= seçãoTop + seçãoHeight){
+seçõesClass.classList.add('link ativo')
+}outro{
+seçõesClass.classList.remove('link ativo')
+}
+})
+}
+window.addEventListener('scroll', scrollActive)
+
+/*===== ANIMAÇÃO DE REVELAÇÃO DE ROLO =====*/
+const sr = ScrollReveal({
+origem: 'topo',
+distância: '60px',
+duração: 2000,
+atraso: 200,
+//redefinir: verdadeiro
+});
+
+sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{atraso: 400});
+sr.reveal('.home__social-icon',{ intervalo: 200});
+sr.reveal('.skills__data, .work__img, .contact__input',{intervalo: 200});
